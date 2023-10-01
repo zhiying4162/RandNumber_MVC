@@ -14,7 +14,7 @@ use App\Http\Controllers\BooksController;
 */
 
 Route::get('/', [BooksController::class, 'index'])->name('start');
-Route::get('/books/unique_num', [BooksController::class, 'unique_num'])->name('unique_num');
+Route::get('/books/numRand', [BooksController::class, 'numRand'])->name('numRand');
 Route::get('/books/showArr', [BooksController::class, 'showArr'])->name('showArr');
 Route::get('/books/result', [BooksController::class, 'result'])->name('result');
 Route::get('/books/clear', [BooksController::class, 'clear'])->name('clear');
